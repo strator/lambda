@@ -12,7 +12,7 @@ public class NatureSeq implements Supplier<Long> {
 	}
 	public static void main(String[] args) {
 		Stream<Long> stream = Stream.generate(new NatureSeq());
-		//System.out.println("daxiao="+stream.count());
+		//System.out.println("count = "+stream.count());
 		System.out.println("ÔªËØ¸öÊý£º"+stream.map((param) -> {
 			System.out.println(param);
 			return param;
