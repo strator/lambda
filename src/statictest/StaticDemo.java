@@ -12,5 +12,7 @@ public class StaticDemo {
 		
 		StaticDemo demo2 = new StaticDemo();
 		System.out.println(demo2.wodesize);
+		
+		//lambda a,b,c a+b+c;
 	}
 }
